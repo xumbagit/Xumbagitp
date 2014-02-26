@@ -27,7 +27,9 @@
 			</tr>
 		</table>
 		<table>
-			<tr><td style="height:50px;"></td></tr>
+			<tr>
+				<td style="height:50px;"></td>
+			</tr>
 		</table>
 		<table>
 			<thead>
@@ -39,7 +41,6 @@
 			</thead>
 			<tbody>
 				<?php
-				
 					$sqlsel="SELECT * FROM historial ORDER BY ID DESC";
 					if($dbn->QuerySQL($sqlsel)==0){
 						if($dbn->getFilas()>0){

@@ -675,7 +675,7 @@ case 12:
 		echo json_encode($retorno);
 	}else{
 		$codError = 2;
-		$mensaje_str = 'Estimado usuario, para poder crear balances o certificados debe ingresar como usuario.';
+		$mensaje_str = 'para crear balances o certificados debe ingresar como usuario.';
 		$seccionpage = 'Información';
 		$retorno[0]['sesActiva']  = 0;
 		$retorno[0]['sesHtml']    = fnv_mostrar_mensajegeneral($codError,$seccionpage,$mensaje_str);

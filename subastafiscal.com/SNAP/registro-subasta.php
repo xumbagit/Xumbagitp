@@ -112,9 +112,9 @@ function removerImg(seleccion){
             <span class="textformulario">• Origen del Valor:</span> </td>
             <td align="left" width="300px">
             <select name="origenvalor" class="domicilio" accept="required">
-            <option value="">[Seleccione]</option>
-            <option value="DocumentoConstitutivo">Documento Constitutivo</option>
-            <option value="RelacionDeComprobante">Relacion de Comprobante</option>
+	            <option value="">[Seleccione]</option>
+	            <option value="DocumentoConstitutivo">Documento Constitutivo</option>
+	            <option value="RelacionDeComprobante">Relacion de Comprobante</option>
             </select>
             </td >
             </tr>
@@ -132,38 +132,37 @@ function removerImg(seleccion){
             <td  align="left" width="300px" ><span class="textformulario">• Auditoría Externa:</span></td>
             <td  align="left" width="300px" >
             <select name="auditoria_externa" class="domicilio" accept="required">
-            <option value="">[Seleccione]</option>
-            <option value="LOCAL">LOCAL</option>
-            <option value="BIG5">BIG5</option>
-            <option value="AAA">AAA</option>  
+	            <option value="">[Seleccione]</option>
+	            <option value="LOCAL">LOCAL</option>
+	            <option value="BIG5">BIG5</option>
+	            <option value="AAA">AAA</option>
             </select> 
             </td>
             </tr>
             <tr height="40px">
             <td  align="left" width="300px" ><span class="textformulario">• Periodo de Uso:</span></td>
             <td  align="left" width="300px" >
-            <select name="periodo_uso_mes" class="mes" accept="required">
-            <option value="">[mes]</option>
-            <option value="01">Enero</option>
-            <option value="02">Febrero</option>
-            <option value="03">Marzo</option>
-            <option value="04">Abril</option>
-            <option value="05">Mayo</option>
-            <option value="06">Junio</option>
-            <option value="07">Julio</option>
-            <option value="08">Agosto</option>
-            <option value="09">Septiembre</option>
-            <option value="10">Octubre</option>
-            <option value="11">Noviembre</option>
-            <option value="12">Diciembre</option>
-          </select>
-          
-          <select name="periodo_uso_ano" class="ano" accept="required">
-        <option value="">[año]</option>
-        <option value="2012">2012</option>
-        <option value="2013">2013</option>
-        <option value="2014">2014</option>
-        <option value="2015">2015</option>
+		   <select name="periodo_uso_mes" class="mes" accept="required">
+				<option value="">[mes]</option>
+				<option value="01">Enero</option>
+				<option value="02">Febrero</option>
+				<option value="03">Marzo</option>
+				<option value="04">Abril</option>
+				<option value="05">Mayo</option>
+				<option value="06">Junio</option>
+				<option value="07">Julio</option>
+				<option value="08">Agosto</option>
+				<option value="09">Septiembre</option>
+				<option value="10">Octubre</option>
+				<option value="11">Noviembre</option>
+				<option value="12">Diciembre</option>
+		  </select>
+         <select name="periodo_uso_ano" class="ano" accept="required">
+	        <option value="">[año]</option>
+	        <option value="2012">2012</option>
+	        <option value="2013">2013</option>
+	        <option value="2014">2014</option>
+	        <option value="2015">2015</option>
         </select>
 		 </td>
          </tr>

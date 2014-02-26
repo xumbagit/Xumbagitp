@@ -23,14 +23,14 @@ require_once('lib/functions.php');
             
       </tr>
 	      <tr>
-	        <td width="45px"><span class="valores2">Nro.<br />Ref.</span></td>
-	        <td width="84px"><span class="valores2">Valor<br />Nominal</span></td>
-	        <td width="84px"><span class="valores2">Monto<br />Disponible</span></td>
-	        <td width="62px"><span class="valores2">Auditoría<br />Externa</span></td>
+	        <td width="45px"><span class="valores2">Nro.<br/>Ref.</span></td>
+	        <td width="84px"><span class="valores2">Valor<br/>Nominal</span></td>
+	        <td width="84px"><span class="valores2">Monto<br/>Disponible</span></td>
+	        <td width="62px"><span class="valores2">Auditoría<br/>Externa</span></td>
 	        <td width="60px"><span class="valores2">Período Uso</span></td>
 	        <td width="57px"><span class="valores2">Origen</span></td>
-	        <td width="62px"><span class="valores2">Agentes<br />Retención</span></td>
-	        <td width="50px"><span class="valores2">Precio <br />Base %</span></td>
+	        <td width="62px"><span class="valores2">Agentes<br/>Retención</span></td>
+	        <td width="50px"><span class="valores2">Precio <br/>Base %</span></td>
 	        <td width="50px"><span class="valores2">MPO %</span></td>
 	        <td width="49px"><span class="valores2">Vence<br>(días)</span></td>
 	        <td width="53px"><span class="valores2"></span></td>
