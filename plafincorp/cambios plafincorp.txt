@@ -1,0 +1,5 @@
+que cada boton enn negocios se ilumine y se quede fijo cuando entre al modulo SOLUCIONADO
+centrar verticalmente footer SOLUCIONADO
+Altura muy alta bajarla SOLUCIONADO
+Linea oscura entre los subitems del menu en la botonera SOLUCIONADO
+ajuste de diagramación en el modulo de noticias y en las noticias del home SOLUCIONADO

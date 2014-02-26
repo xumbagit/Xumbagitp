@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ingresar a:link, .ingresar a:visited, .ingresar a:active {
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#FF9732', EndColorstr='#B0992A');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9732', endColorstr='#754C24',GradientType=0);
+  behavior: url(js/PIE.htc);  
+}
+		
+				.ingresar a:hover {
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F4BF2A', EndColorstr='#B0781A');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4BF2A', endColorstr='#B0781A',GradientType=0);
+  behavior: url(js/PIE.htc);  
+}
+
+#gris {
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F5F5F5', EndColorstr='#BCBCBC');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#BCBCBC',GradientType=0);
+  behavior: url(js/PIE.htc);
+  -pie-background: linear-gradient(#F5F5F5, #BCBCBC);
+}
+
+#grisfinal {
+
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F5F5F5', EndColorstr='#BCBCBC');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#BCBCBC',GradientType=0);
+  behavior: url(js/PIE.htc);
+	-pie-background: linear-gradient(#F5F5F5, #BCBCBC);
+}
+
+.menuprincipal {
+  /* IE7 IE8 */
+ -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F5F5F5', EndColorstr='#BCBCBC');
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F5F5F5', EndColorstr='#BCBCBC');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#BCBCBC',GradientType=0);
+  behavior: url(js/PIE.htc);
+}
+
+.menuprincipal a:hover { 
+  /* IE7 IE8 */
+ -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F5F5F5', EndColorstr='#BCBCBC');
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#CFE3BF', EndColorstr='#7AA077');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CFE3BF', endColorstr='#7AA077',GradientType=0);
+  behavior: url(js/PIE.htc);
+}
+
+.submenuempresa a:link, .submenuempresa a:visited, .submenuempresa a:active {
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#576B5F', EndColorstr='#576B5F');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#576B5F', endColorstr='#576B5F',GradientType=0);
+  behavior: url(js/PIE.htc);
+}
+
+.submenuempresa a:hover { 
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#CCA529', EndColorstr='#CCA529');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCA529', endColorstr='#CCA529',GradientType=0);
+  behavior: url(js/PIE.htc);
+}
+
+.submenuservicios a:link, .submenuservicios a:visited, .submenuservicios a:active {
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#576B5F', EndColorstr='#576B5F');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#576B5F', endColorstr='#576B5F',GradientType=0);
+  behavior: url(js/PIE.htc);
+}
+
+.submenuservicios a:hover { 
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#CCA529', EndColorstr='#CCA529');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCA529', endColorstr='#CCA529',GradientType=0);
+  behavior: url(js/PIE.htc);
+}
+  

@@ -1,0 +1,52 @@
+#log {
+	height: 240px;
+	overflow-y: scroll;
+}
+
+.nickname {
+	text-align: left;
+	font-weight: bold;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.broadcast {
+	color: blue;
+}
+
+.server {
+	color: green;
+}
+
+.unicast {
+	color: purple;
+}
+
+.notification {
+	/*background-color: red;*/
+	width: 20px;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.selected {
+	background-color: #f5f5f5;
+}
+
+.scrollable {
+	overflow-y: scroll;
+}
+
+a.close_conv:hover {
+	background-color: #A0A0A0;
+}
+
+#loghistorial {
+	height: 400px;
+	overflow-y: scroll;
+}

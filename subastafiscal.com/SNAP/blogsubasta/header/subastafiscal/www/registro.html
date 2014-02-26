@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/form.css" rel="stylesheet" />
+<title>Subasta Fiscal</title>
+</head>
+
+<body>
+	<div id="contenedorformulario">
+    	<div id="pestanaformulario"><h6>Registro de Usuario</h6>
+        </div>
+        	<div id="contenedorinput">
+            	<form action="envio.php" method="post" >
+                <br />
+                	<span class="textformulario">Tipo de Persona</span>
+                    	<select name="tipo_persona">
+                        <option value="natural">Natural
+                        <option value="juridica">Juridica
+                        </select>
+                        <br /><br />
+
+                        <span class="textformulario">Nombre:</span><input id="login" type="text" value="" />
+                        <br /><br />
+                          <span class="textformulario">Apellido:</span><input name="apellido" type="text" size="40" />
+                          <br /><br />
+                          <span class="textformulario">Nacionalidad</span>
+                          <select name="nacionalidad">
+                        <option value="venezulano">Venezolano
+                        <option value="extranjero">Extranjero
+                        </select>
+                           <br /><br />
+                           <span class="textformulario">Nº de Identificación</span><input name="nro_identificacion" type="text" size="40" />
+                          <br /><br />
+                           <span class="textformulario">Correo Electrónico</span><input name="correo" type="text" size="40" />
+                           <br /><br />
+                           <span class="textformulario">Clave</span><input name="clave" type="text" size="40" />
+                           <br /><br />
+                           <span class="textformulario">Confirmar Clave</span><input name="confirmarclave" type="text" size="40" />
+                           <br /><br />
+                           <span class="textformulario">Teléfono</span><input name="telefono" type="text" size="40" />
+                           <br /><br />
+                           <span class="textformulario">Actividad que Realiza</span>
+                           <select name="actividad">
+                        <option value="Alimentos y Bebidas">Alimentos y Bebidas
+                        <option value="Asesoría y Consultoría">Asesoría y Consultoría
+                        <option value="Automotriz y Repuestos">Automotriz y Repuestos
+                        <option value="Bancos y Finanzas">Bancos y Finanzas
+                        <option value="Comercio">Comercio
+                        <option value="Medicina y Farmacia">Medicina y Farmacia
+                        <option value="Manufactura">Manufactura
+                        <option value="Mercadeo y Publicidad">Mercadeo y Publicidad
+                        <option value="Petróleo y Derivados">Petróleo y Derivados
+                        <option value="Recursos Humanos">Recursos Humanos
+                        <option value="Servicios">Servicios
+                        <option value="Tecnología y Telefonía">Tecnología y Telefonía
+                        <option value="Transporte y Logística">Transporte y Logística
+                        <option value="Otras Actividades">Otras Actividades
+                        </select>
+                         <br /><br /> 
+                        <h5>Domicilio Fiscal</h5>
+                         <br />
+                         <span class="textformulario">Estado</span>
+                          <select name="estado">
+                        <option value="Amazonas">Amazonas
+                        <option value="Anzoátegui">Anzoátegui
+                        <option value="Apure">Apure
+                        <option value="Aragua">Aragua
+                        <option value="Barinas">Barinas
+                        <option value="Bolívar">Bolívar
+                        <option value="Carabobo">Carabobo
+                        <option value="Cojedes">Cojedes
+                        <option value="Delta Amacuro">Delta Amacuro
+                        <option value="Distrito Capital">Distrito Capital
+                        <option value="Falcón">Falcón
+                        <option value="Guárico">Guárico
+                        <option value="Lara">Lara
+                        <option value="Mérida">Mérida
+                        <option value="Miranda">Miranda
+                        <option value="Monagas">Monagas
+                        <option value="Nueva Esparta">Nueva Esparta
+                        <option value="Portuguesa">Portuguesa
+                         <option value="Sucre">Sucre
+                        <option value="Táchira">Táchira
+                        <option value="Trujillo">Trujillo
+                        <option value="Vargas">Vargas
+                        <option value="Yaracuy">Yaracuy
+                        <option value="Zulia">Zulia
+                        </select>
+                        <br /><br />
+                        <span class="textformulario">Municipio</span>
+                          <select name="municipio">
+                        <option value="Baruta">Baruta
+                        <option value="Chacao">Chacao
+                        <option value="Hatillo">Hatillo
+                        <option value="Libertador">Libertador
+                        <option value="Sucre">Sucre
+                        </select>
+                		<br /><br />
+                         <span class="textformulario">Parroquia</span>
+                          <select name="parroquia">
+                        <option value="La Candelaria">La Candelaria
+                        <option value="Altagracia">Altagracia
+                        <option value="Antimano">Antimáno
+                        <option value="Coche">Coche
+                        <option value="Sucre">Sucre
+                        </select>
+                		<br /><br />
+                        <h5>Servicios de Interes</h5>
+                        <br />
+                        
+                        <span class="textformulario">C-V Valores Fiscales</span>
+                        <input type="checkbox" class="box" />
+                        <br />
+                        <span class="textformulario">Asesoría Fiscal</span>
+                        <input type="checkbox" class="box"  />
+                        <br />
+                        <span class="textformulario">Outsourcing Contable</span>
+                        <input type="checkbox" class="box" />
+                        <br />
+                        <span class="textformulario">Impuesto Municipal</span>
+                        <input type="checkbox"  class="box" />
+                        <br />
+                        <span class="textformulario">Nómina</span>
+                        <input type="checkbox" class="box" />
+                        <br />
+                        <span class="textformulario">Adiestramiento</span>
+                        <input type="checkbox" class="box" />
+                        <br />
+                        <span class="textformulario">Precio de Transferencia</span>
+                        <input type="checkbox" class="box" />
+                        <br />
+                        <span class="textformulario">Registro y Actualización RNC</span>
+                        <input type="checkbox" class="box" />
+                        <br /><br />
+                        <span class="textformulario">Acepto los <a class="terminos" href="#">Términos y Condiciones</a></span>
+                        <input type="checkbox" class="box"  />
+                        <br /><br />
+                        <input class="registrar" type="submit" name="enviar" value="Registar" />
+                        
+                       
+
+                       
+                        
+                        
+                        
+                </form>
+            </div>
+    </div>
+</body>
+</html>

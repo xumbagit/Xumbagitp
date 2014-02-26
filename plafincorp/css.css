@@ -1,0 +1,1213 @@
+@charset "UTF-8";
+html, body{
+margin:0px;
+padding:0px;
+height: auto;
+}
+
+body {
+margin:0px;
+padding:0px;
+background-image:url(imag/fondo.png);
+background-repeat:repeat-x;
+background-position:top;
+background-color:#F4F4F4;
+height: auto;
+font-family: Arial, Helvetica, sans-serif; 
+text-decoration: none;
+vertical-align: top;
+font-weight: normal;
+font-size:12px;
+}
+
+textarea,TEXTAREA{
+	font-family: Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+	vertical-align: top;
+	font-weight: normal;	
+}
+IMG{
+	border: 0px;
+}
+
+img{
+	border: 0px;
+}
+
+h1 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#009092;
+}
+
+h2 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+p {
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+#content { 
+width: 960px;
+position:relative;
+margin:0 auto;
+	
+}
+
+#header	{
+width:960px;
+height:px;
+position:relative;
+margin:0px;
+padding:0px;
+	
+}
+
+#contenedorlogos {
+
+width:960px;
+height:130px;
+position:relative;
+margin:0px;
+padding:0px;
+display:block;	
+}
+
+#planfincorp {
+width:331px;
+height:101px;
+position:relative;
+float:left;
+margin:0px;
+padding:0px;
+margin-top:15px;
+background-image:url(imag/logo.png);
+background-repeat:no-repeat;	
+}
+
+#logosfacebookcontend {
+width:202px;
+height:130px;
+position:relative;
+float:right;
+margin:0px;
+padding:0px;
+	
+}
+
+#logosredessocialescontenedor {
+width:106;
+height:45;
+position:relative;
+margin:0px;
+padding:0px;
+margin-top:15px;	
+	
+}
+
+#tw {
+width:31px;
+height:31px;
+position:relative;
+margin:0px;
+padding:0px;
+float:left;
+margin-left:130px;
+	
+}
+
+#fb {
+width:31px;
+height:31px;
+position:relative;
+margin:0px;
+padding:0px;
+float:left;
+margin-left:10px;
+	
+}
+
+#wwwsubastafiscalcom {
+width:160px;
+height:37px;
+margin-left:37px;
+margin-top:30px;
+font: Arial, Helvetica, sans-serif;
+font-size:15px;
+font-style:italic;
+color:#019091;
+		
+}
+
+#botoneracontenedor {
+width:960px;
+height:230px;
+position:relative;
+margin:2px;
+padding:0px;
+}
+
+.titulo_modulo{
+    position:relative;
+	clear:both;
+    font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+    font-weight:bolder;
+    margin-top:4px;
+    color:white;
+    background:#009092;
+    width:100%;
+    height:30px;
+    float:left;  
+    border:0;
+    border:1px solid transparent;
+	z-index: 50;
+}
+
+.titulo_modulo p{
+    position:relative;
+    font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+    font-weight:bolder;
+    margin-top:5px;
+	margin-left:5px;
+    color:white;
+    background:none;
+    width:100%;
+    height:30px;
+    float:left;  
+    border:0;
+    border:1px solid transparent;
+	z-index: 50;
+}
+
+.content_modulo{
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin-top:4px;
+	margin-bottom:100px;
+    color:black;
+    width:100%;
+    height:auto;
+    float:left;
+    border:1px solid #009092;
+	z-index: 50;
+}
+
+.contentcolumna1{
+	position:relative;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin-top:4px;
+    color:black;
+    width:500px;
+    height:1024px;
+    float:left;
+    z-index: 50;
+}
+
+.contentcolumna2{
+	position:relative;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin-top:4px;
+    color:black;
+    width:350px;
+    height:auto;
+    float:left;
+    z-index: 50;
+}
+
+.servic_botones{
+	position:relative;
+	margin: 0px auto;
+	width: 960px;
+}
+
+.servic_botones li{
+	position:relative;
+	height: auto;
+	width:auto;
+	float: left;
+}
+
+.servic_botones li:hover{
+	position:relative;
+	height: 200px;
+	width:300px;
+	float: left;
+}
+
+.boton_ic{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ic_peq_norm.png);	
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_ic:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ic_peq_hover.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_ii{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ii_peq_norm.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_ii:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ii_peq_hover.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_pt{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/pt_peq_norm.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_pt:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/pt_peq_hover.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_ot{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ot_peq_norm.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_ot:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ot_peq_hover.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_alt{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/alt_peq_norm.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_alt:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/alt_peq_hover.png);
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_alt_alter{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/alt_peq_hover.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_alt_alter:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/alt_peq_norm.png);
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_ot_alter{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ot_peq_hover.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_ot_alter:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ot_peq_norm.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+
+.boton_pt_alter{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/pt_peq_hover.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_pt_alter:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/pt_peq_norm.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+
+.boton_ii_alter{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ii_peq_hover.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_ii_alter:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ii_peq_norm.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+.boton_ic_alter{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ic_peq_hover.png);
+	background-repeat:no-repeat;
+	border: 0px;
+}
+
+.boton_ic_alter:hover{
+	position: relative;
+	height: 118px;
+	width: 128px;
+	background-image: url(imag/ic_peq_norm.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	border: 0px;
+}
+
+#botonera {
+width:170px;
+height:54px;
+background-image:url(botones/botonera.png);
+background-repeat:repeat-x;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:8000;
+float:left;
+margin-top:2px;
+margin-left:16px;
+text-align:center;
+text-transform:capitalize;
+font-size: 13px;
+line-height:50px;
+color:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+z-index: 200000;
+}
+
+#botonera a:link, #botonera a:visited, #botonera a:active {
+width:170px;
+height:54px;
+background-image:url(botones/botonera.png);
+background-repeat:repeat-x;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:8000;
+float:left;
+text-align:center;
+text-transform:capitalize;
+font-size: 13px;
+line-height:50px;
+color:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;
+z-index: 200000;
+}
+
+
+#botonera a ul{
+    position:relative;
+    display:none;
+    font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin-top:4px;
+    color:white;
+	width:170px;
+    height:260px;
+    float:left;  
+    border:0;
+    border:1px solid transparent;
+    z-index: 200000;
+}
+
+#botonera a:hover ul li:hover{
+	display:block;
+	z-index: 200000;
+}
+
+#botonera a:hover>ul{
+	position: relative;
+	display:block;
+	margin-left: -40px;
+z-index: 200000;
+}
+
+
+#botonera a:hover ul li{
+	position:relative;
+	display:block;
+	background: #009091;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width:166px;
+	height: 40px;
+	z-index: 200000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:170px;
+}
+
+#botonera a:hover ul li p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:170px;
+}
+
+#botonera a:hover ul li:hover{
+	position:relative;
+	display:block;
+	background: #F88900;
+	margin-bottom: 0px;
+	z-index: 200000;
+width:170px;
+}
+
+#botonera a:hover ul li:hover p{
+	position:relative;
+	display:block;
+	background: #009091;
+	margin-top: 0px;
+width:166px;
+height:56px;
+	z-index: 200000;
+	width:170px;
+}
+
+#botonera a:hover {
+background-image:url(botones/botonerao.png);
+background-repeat:repeat-x;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:6;
+float:left;
+text-align:center;
+text-transform:capitalize;
+font-size: 13px;
+line-height:50px;
+color:#FFF;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;
+display: block;
+z-index: 200000;
+width:170px;
+height: 54px;	
+}
+
+#banner {
+width:960px;
+height:235px; 
+position:absolute; top:189px;
+margin:0px;
+padding:0px;
+float:inherit;
+z-index:1;
+}
+
+#servicios {
+width:960px;
+height:196px; 
+position:absolute; top:380px;
+margin:0px;
+padding:0px;
+float:inherit;
+z-index:3;
+}
+
+#serviciosbotones {
+width:178px;
+height:196px; 
+position:absolute
+margin:0px;
+padding:0px;
+margin-left:13px;
+float:left;
+z-index:3;
+
+}
+
+#contenedorcontenido {
+width:960px;
+height:630px; 
+position:relative; 
+top:90px;
+margin:0px;
+padding:0px;
+float:inherit;
+z-index:2;
+}
+
+#contenedorcontenidogral {
+width:960px;
+height:340px; 
+position:relative;
+top:140px;
+margin:0px;
+padding:0px;
+float:inherit;
+z-index:2;
+}
+
+#contenedornoticias {
+width:280px;
+height:340px; 
+position:relative;
+float:left;
+margin:0px;
+padding:0px;
+margin-left:12px;
+float:left;
+z-index:2;
+margin-right:19px;
+}
+
+#noticias {
+position:relative;
+width:280px;
+height:170px; 
+margin:0px;
+padding:0px;
+float:right;
+z-index:2;
+}
+
+#noticias2 {
+position:relative;
+width:280px;
+height:900px;
+padding:0px;
+float:right;
+z-index:2;
+top:0px;
+}
+
+.botongenral1 {
+width:73px;
+height:17px; 
+position:relative;
+margin:2px;
+padding:0px;
+float:right;
+z-index:6;
+background-image:url(botones/botonact.png);
+background-repeat:no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#009092;
+line-height:17px;
+
+}
+
+.botongenral1 a:link, #botongenral a:visited, #botongenral a:active {
+width:73px;
+background-image: url(botones/botonact.png);
+background-repeat:no-repeat;
+height:17px;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:6;
+float:left;
+text-align:center;
+text-transform:capitalize;
+font-size: 11px;
+color:#000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;
+line-stacking:6px;
+}
+
+.botongenral1 a:hover {
+width:73px;
+background-image:url(botones/botonover.png);
+background-repeat:no-repeat;
+height:17px;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:6;
+float:left;
+text-align:center;
+text-transform:capitalize;
+font-size: 11px;
+color:#000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+#botongenral {
+width:73px;
+height:17px; 
+position:relative;
+margin:2px;
+padding:0px;
+float:right;
+z-index:6;
+background-image:url(botones/botonact.png);
+background-repeat:no-repeat;
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#009092;
+line-height:17px;
+
+}
+
+#botongenral a:link, #botongenral a:visited, #botongenral a:active {
+width:73px;
+background-image: url(botones/botonact.png);
+background-repeat:no-repeat;
+height:17px;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:6;
+float:left;
+text-align:center;
+text-transform:capitalize;
+font-size: 11px;
+color:#000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;
+line-stacking:6px;
+}
+
+#botongenral a:hover {
+width:73px;
+background-image:url(botones/botonover.png);
+background-repeat:no-repeat;
+height:17px;
+position:relative;
+margin:0px;
+padding:0px;
+z-index:6;
+float:left;
+text-align:center;
+text-transform:capitalize;
+font-size: 11px;
+color:#000000;
+font-family:Arial, Helvetica, sans-serif;
+text-decoration:none;
+}
+
+#contenedortw {
+	width:300px;
+	height:340px; 
+	position:relative; 
+	float:left;
+	margin:0px;
+	margin-left:20px;
+	padding:0px;
+	float:left;
+	z-index:2;
+	margin-right:19px;
+}
+
+.contentcolumna1{
+	width:400px;
+	height:340px; 
+	position:relative; 
+	float:left;
+	margin:0px;
+	margin-left:20px;
+	padding:0px;
+	float:left;
+	z-index:2;
+	margin-right:19px;	
+}
+
+#contenedorcontactos {
+width:300px;
+height:340px; 
+position:relative; 
+margin:0px;
+padding:0px;
+float:left;
+z-index:2;
+}
+
+#lineavertical {
+	width: 2px;
+	height: 270px;
+	background-image: url(imag/lineasvertical.png);
+	background-repeat: repeat-y;
+	right:auto;
+	position:relative;
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	top:30px;
+}
+
+#lineahorizontal {
+	width: 285px;
+	height: 2px;
+	background-image: url(imag/lineashorizontal.png);
+	background-repeat: repeat-x;
+	position:relative;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	z-index: 2;
+	alignment-adjust:central;
+}
+
+#marcadeagua {
+	width: 325px;
+	height: 476px;
+	background-image:url(imag/marcadeagua.png);
+	background-repeat:no-repeat;
+	float: inherit;
+	margin: 0px;
+	padding: 0px;
+	left:650px;
+	bottom:140px;
+	position: relative;
+	z-index: 1;
+	
+}
+
+#logoscompanias {
+	clear:both;
+	width:960px;
+	height:70px; 
+	position:relative;
+	margin:0px;
+	padding:0px;
+	float:none;
+	z-index:200000;
+	margin-top:50px;
+	margin-bottom:80px;
+}
+
+#titulologos {
+	width:960px;
+	height:30px; 
+	position:relative;
+	margin:0px;
+	padding:0px;
+	float: none;
+	z-index:2;
+	
+}
+
+#logos {
+	width:960px;
+	height:80px; 
+	position:relative;
+	margin:0px;
+	padding:0px;
+	float: none;
+	z-index:2;
+	
+}
+
+#linealogos {
+	background-image:url(imag/lineashorizontal.png);
+	background-repeat:repeat-x;
+	width:960px;
+	height:2px; 
+	position:relative;
+	margin:0px;
+	padding:0px;
+	float:none;
+	z-index:2;
+	
+}
+
+#logossolos {
+	width:160px;
+	height:70px; 
+	position:relative;
+	margin:36px;
+	padding:0px;
+	float: left;
+	z-index:2;
+	
+}
+
+#footer {
+	position: relative;
+	margin:0px auto;
+	float:none;
+	background-image: url(imag/footer.png);
+	background-repeat:repeat-x;
+	width:100%;
+	height:111px; 
+	z-index: 50;
+}
+#footercontend {
+	width:960px;
+	height:111px; 
+	position: relative;
+	margin:0 auto;
+	padding:0;
+	float:none;
+	z-index: 50;
+}
+
+#footercontend2 {
+	position:absolute;
+	width:180px;
+	height:100px; 
+	margin:6px;
+	padding:0px;
+	float:left;
+	background-color:transparent;
+	z-index: 50;
+}
+
+#footercontend3 {
+	position:absolute;
+	width:3px;
+	height:100px; 
+	margin:6px;
+	padding:0px;
+	float:left;
+	z-index: 50;
+	background-image: url(imag/lineablanca.png);
+}
+
+#footercreditos {
+	background-color:#C5C6C6;
+	width:100%;
+	height:45px; 
+	position: relative;
+	margin:0px;
+	padding:0px;
+	z-index: 50;
+}
+
+#contactenos {
+width:280px;
+height:40px; 
+position:relative;
+left:20px;
+float:none;
+margin:0px;
+padding:0px;
+float:none;
+z-index:2;
+}
+
+#contactenosplanilla {
+width:280px;
+height:250px; 
+position:relative;
+left:20px;
+float:none;
+margin:0px;
+padding:0px;
+float:none;
+z-index:2;
+}
+
+#contactenosboton {
+width:280px;
+height:25px; 
+position:relative;
+left:20px;
+float:none;
+margin:auto;
+float:none;
+z-index:2;
+}
+
+.barranav{
+    position:relative;
+    font-size:14px;
+	font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    width:101%;
+    height:auto;
+    float:left;
+    text-align: center;
+    border:0;
+    border:1px solid transparent;
+    width:1024px;
+    z-index: 10000;
+}
+
+.barranav a li{
+    position:relative;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:white;
+    float:left; 
+    border:0;
+    width:169px;
+    border:1px solid transparent;
+    list-style: none;
+    z-index: 8000;
+}
+
+.barranav a li:hover img{
+    position:relative;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:white;
+    float:left; 
+    border:0;
+    width:169px;
+    border:1px solid transparent;
+    list-style: none;
+    z-index: 8000;
+}
+
+.barranav a li ul{
+    position:relative;
+    display:none;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:white;
+    width:167px;
+    height:52px;
+    float:left;  
+    border:0;
+    border:1px solid transparent;
+    z-index: 7000;
+}
+
+.barranav a li ul li{
+    position:relative;
+    display:block;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#cccccc;
+    width:167px;
+    height:52px;
+    float:left;   
+    margin-bottom:-8%;
+    border:0;
+    border:1px solid transparent;
+    z-index: 6000;
+}
+.barranav a li img{
+    position:relative;
+    display:block;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:white;
+    width:167px;
+    height:50px;
+    float:left;   
+    border:0;
+    border:1px solid transparent;
+    z-index: 6000;
+}
+
+.barranav a li:hover ul{
+    position:relative;
+    display:block;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:white;
+    width:167px;
+    height:52px;
+    float:left;
+    border:1px solid transparent;
+    z-index: 6000;
+}
+
+.barranav a li:hover ul li{
+    position:relative;
+    display:block;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#cccccc;
+    width:167px;
+    height:52px;
+    float:left;   
+    margin-bottom:-8%;
+    border:0;
+	background:#009877;
+	background-repeat:repeat-x;
+    border:1px solid transparent;
+    z-index: 6000;
+}
+
+.barranav a li:hover ul li p{
+    position:relative;
+    display:block;
+    width:167px;
+    height:52px;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#cccccc;
+    float:left;
+    margin-left:5%;
+    margin-top:4%;   
+    border:0;
+    border:1px solid transparent;
+    vertical-align:middle;
+    cursor: pointer;
+    z-index: 6000;
+}
+
+.barranav a li:hover ul li:hover{
+    position:relative;
+    display:block;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#ffffff;
+    width:167px;
+    height:52px;
+    float:left;
+    margin-bottom:-8%;
+    border:0;
+    border:1px solid transparent;
+    z-index: 6000;
+}
+
+.barranav a li:hover ul li:hover p{
+    position:relative;
+    display:block;
+    width:167px;
+    height:52px;
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#ffffff;
+    float:left; 
+    margin-top:4%;   
+    border:0;
+    border:1px solid transparent;
+    vertical-align:middle;
+    cursor: pointer;
+    z-index: 6000;
+}
+/*CALENDARIO FISCAL*/
+.celdacalendar{
+    font-size:14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight:bolder;
+    color:#009091;
+    background:#FFFFFF;
+	width:70px;
+	height:70px;
+	border:1px solid #CCCCCC;	
+}
+
+.celdacalendar table, td { border:1px solid #009999; }
+
+.celdacalendar a{
+	width:70px;
+	height:70px;
+	color:#009091;
+	background:#FFFFFF;
+}
+
+.celdacalendar_sub{
+	width:70px;
+	height:70px;
+	border:1px solid #CCCCCC;
+	color:white;
+	background:#009999;
+}
+
+.celdacalendar_sub a{
+	width:70px;
+	height:70px;
+	color:white;
+	background:#009999;
+}
+/*///////////////*/
+
+.titulonot{
+	font-size:21px;
+	line-height: 29px;
+	color:#333;
+}
+
+.cuerponot{
+	font-size:14px;
+	line-height: 22px;
+	color:#666;
+	font-weight: lighter;
+}
+/*///////////////*/

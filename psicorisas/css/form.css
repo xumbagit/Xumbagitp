@@ -1,0 +1,214 @@
+.content_form {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 0px;
+    width: 625px;
+    height: auto;
+    background-image: url('../img/bg4.png');
+    background-repeat:repeat;
+}
+.required {
+    position: relative;
+    display: inline-block;
+    float: left;
+    color: #c45205;
+    line-height: 35px;
+    margin-left: 12px;
+}
+.required2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 8px;
+    float: left;
+    color: #c45205;
+    line-height: 35px;
+}
+.field {
+    border: 0;
+    position: relative;
+    display:block;
+    text-indent: 12px;
+    margin-bottom: 20px;
+    float: left;
+    width: 193px;
+    height: 35px;
+    font-size: 13px;
+    color: #005c5d;
+    line-height: 35px;
+    margin-left: 12px;
+    background-color: #ffffff;
+    opacity: 1;
+}
+.inscripcion {
+    position: relative;
+    margin-left: 26px;
+    display: inline-block;
+    float: left;
+    width: 541px;
+    height: auto;
+    padding-bottom: 30px;
+    opacity: 1;
+}
+.inscripcion .title {
+    color: #005c5d;
+    font-size: 14px;
+    line-height: 35px;
+}
+.inscripcion .col1 {
+    position: relative;
+    float: left;
+    width: 230px;
+    min-height: 450px;
+    margin: 0;
+}
+.inscripcion .col2 {
+    position: relative;
+    float: left;
+    width: 294px;
+    min-height: 450px;
+    margin-left:12px;
+    color: #005c5d;
+}
+.styled-select {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 266px;
+  height: 34px;
+  overflow: hidden;
+  background: url(../img/arrow_down.jpg) no-repeat right #fff;
+  border: 0;
+  outline: 0;
+  margin-left: 12px;
+}
+
+.styled-select select {
+   background: transparent;
+   width: 286px;
+   padding: 5px;
+   font-size: 13px;
+   line-height: 1;
+   border: 0;
+   height: 34px;
+   color: #005c5d;
+   -webkit-appearance: none;
+}
+.styled-select option {
+   width: 200px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow:ellipsis;
+}
+.styled-select2 {
+  float: left;
+  position: relative;
+  display: inline-block;
+  width: 194px;
+  height: 34px;
+  overflow: hidden;
+  background: url(../img/arrow_down.jpg) no-repeat right #fff;
+  border: 0;
+  outline: 0;
+  margin-left: 12px;
+   }
+.styled-select2 select {
+   background: transparent;
+   width: 217px;
+   padding: 5px;
+   font-size: 13px;
+   line-height: 1;
+   border: 0;
+   height: 34px;
+   color: #005c5d;
+   -webkit-appearance: none;
+}
+.styled-select2 option {
+   width: 200px;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow:ellipsis;
+}
+.area {
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   display: inline-block;
+   float: left;
+   color: #005c5d;
+   border:0;
+   padding-top:15px;
+   padding-right: 15px;
+   padding-left: 12px;
+   font-size:13px;
+   line-height: 21px;
+   background-color:#ffffff;
+   min-width:268px;
+   max-width:268px;
+   height:216px;
+   min-height:216px;
+   max-height:216px;
+   margin-left: 12px;
+   margin-top: 20px;
+}
+.area2 {
+   font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   display: inline-block;
+   float: left;
+   color: #005c5d;
+   border:0;
+   padding-top:12px;
+   padding-right: 15px;
+   padding-left: 12px;
+   font-size:13px;
+   line-height: 21px;
+   background-color:#ffffff;
+   min-width:268px;
+   max-width:268px;
+   height:157px;
+   min-height:157px;
+   max-height:157px;
+   margin-left: 12px;
+   margin-top: 20px;
+   
+}
+::-webkit-input-placeholder {
+   color: #005c5d;
+   display: inline-block;
+   opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #005c5d; 
+   display: inline-block;
+   opacity: 1;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #005c5d;
+   display: inline-block;
+   opacity: 1;
+}
+
+:-ms-input-placeholder {  
+   color: #005c5d;
+   display: inline-block;
+   opacity: 1;
+}
+.boton_input {
+  position: relative;
+  margin-left: 0;
+}
+.datos {
+  font-family: arial, helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  font-size: 12px;
+  line-height: 21px;
+  color:#c45205;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+

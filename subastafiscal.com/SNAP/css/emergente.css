@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#contenedoremergente {
+width:695px;
+position:relative;
+float:none;
+margin-left:auto;
+margin-right:auto;
+padding:0px;
+z-index:20;
+display:block;
+margin-top:150px;
+background-color:#FFFFFF;
+
+}
+
+#pestanaemergente {
+width:695px;
+height:25px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:bold;
+color:#666666;
+line-height:22px;
+text-align:center;
+position:relative;
+float:left;
+padding:0px;
+margin:0px;
+border-radius:4px 4px 0px 0px;
+box-shadow: 1px 1px 3px 1px rgb(136, 136, 136);
+z-index:0;
+	/* GRADIENTE */
+  background-color: #FFFFFF;
+	/* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#B4B4B4));
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #B4B4B4);
+	/* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(top, #FFFFFF, #B4B4B4);
+	/* IE 10+ */
+  background-image: -ms-linear-gradient(top, #FFFFFF, #B4B4B4);
+	/* Opera 11.10+ */
+  background-image: -o-linear-gradient(top, #FFFFFF, #B4B4B4);
+	/* W3C */
+  background: linear-gradient(top, #FFFFFF 0%,#B4B4B4 100%);
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#FFFFFF', EndColorstr='#B4B4B4');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#B4B4B4',GradientType=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#FFFFFF', EndColorstr='#B4B4B4');
+  	behavior: url(js/PIE.htc);
+  
+}
+
+#contenedorabajoemergente {
+width:695px;
+border-radius: 0px 0px 4px 4px;
+background-color:#FFF;
+position:relative;
+float:left;
+
+}
+
+.checkverde {
+width:42px;
+height:42px;
+margin:0 auto;
+padding:0px;
+background-image:url(../img/check.png);
+background-repeat:no-repeat;
+margin-top:17px;
+}
+
+.checkamarillo {
+width:42px;
+height:42px;
+margin:0 auto;
+padding:0px;
+background-image:url(../img/exclamation.png);
+background-repeat:no-repeat;
+margin-top:17px;
+}
+
+.checkrojo {
+width:42px;
+height:42px;
+margin:0 auto;
+padding:0px;
+background-image:url(../img/error.png);
+background-repeat:no-repeat;
+margin-top:17px;
+}
+
+
+
+#textoemergente {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:lighter;
+width:695px;
+color:#646464;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+margin-top:10px;
+padding-bottom:17px;
+float:none;
+background-color:#FFFFFF;
+}
+
+#textoemergentebid {
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:15px;
+font-weight:lighter;
+width:695px;
+color:#646464;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+margin-top:10px;
+padding-bottom:17px;
+float:none;
+background-color:#FFFFFF;
+}
+
+
+ .blocker {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+    height:100%;
+	overflow:hidden;
+	    /* hacemos que ocupe toda la pantalla a cualquier resolución*/
+	z-index: 10000;        /* lo colocamos por encima del resto de componentes*/
+	background:url(../img/transparencia.png);
+	background-repeat:repeat;  /*Color de fondo semitransparente*/
+	margin-bottom:0px;
+	display:block;
+	
+	/*
+	
+	opacity:0.8;
+	-moz-opacity:0.8;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
+	filter:alpha(opacity=80);
+	*/
+	
+   }
+   
+   
+	
+   
+
+

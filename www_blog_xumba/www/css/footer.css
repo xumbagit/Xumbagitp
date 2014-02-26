@@ -1,0 +1,100 @@
+#footer {
+    background-image:url('../img/bg_footer.jpg');
+    background-repeat: repeat-x;
+    position: relative;
+    display: block;
+    float: left;
+    bottom: 0;
+    width: 100%;
+    height: 95px;
+    margin: 0;
+}
+.content_footer {
+    width: 1020px;
+    height: 95px;
+    position: relative;
+    float:none;
+    margin: 0 auto;
+    text-align: left;
+}
+.adress {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+    margin-left: 35px;
+    margin-bottom:15px;
+    margin-top: 7px;
+}
+.credits {
+    position: relative;
+    display: block;
+    float: left;
+    clear:both;
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 35px;
+    margin-bottom:0;
+    margin-top: 7px;
+
+}
+.social_area2 {
+    position:absolute;
+    float:none;
+    display:inline-block;
+    bottom:7px;
+    right: 18px;
+    width:140px;
+    height:22px;
+}
+.social_area2 a {
+    position:relative;
+    float:left;
+    display:inline-block;
+    width:21px;
+    height:21px;
+    margin-right:5px;
+    text-decoration:none;
+}
+.social_area2 .xumba {
+    background-image:url(../img/xumba_logo3.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .fb {
+    background-image:url(../img/fb_2.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .tw {
+    background-image:url(../img/tw_2.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .yt {
+    background-image:url(../img/yt_2.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .in {
+    background-image:url(../img/in_2.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .xumba:hover {
+    background-image:url(../img/xumba_logo3-2.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .fb:hover {
+    background-image:url(../img/fb_3.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .tw:hover {
+    background-image:url(../img/tw_3.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .yt:hover {
+    background-image:url(../img/yt_3.png);
+    background-repeat:no-repeat;
+}
+.social_area2 .in:hover {
+    background-image:url(../img/in_3.png);
+    background-repeat:no-repeat;
+}

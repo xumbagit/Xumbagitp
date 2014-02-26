@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta name="keywords" content="Hacked, By, 0n3Bit,onebit">
+<meta name="description" content="HACKED BY 0n3Bit">
+<html>
+<head><title>Hacked by 0n3Bit</title></head>
+<style>
+body{
+background-color:#000;
+}
+.img{
+position:absolute;
+top:430px;
+left:20px;
+}
+h1{
+font-family:Impact;
+font-size:32pt;
+color:#FF0000;
+margin:0px;
+}
+h2{
+font-family:courier new;
+font-size:12pt;
+color:#fff;
+}
+.onebit{
+position:absolute;
+top:0px;
+left:0px;
+background-image:url(http://www.sistemasaplicados.com.mx/imagenes_menus/onebit.gif);
+background-repeat:no-repeat;
+width:450px;
+height:450px;
+}
+.cont{
+position:absolute;
+top:150px;
+left:450px;
+}
+</style>
+<body>
+<div class="onebit"></div>
+<div class="cont">
+<h1>HACKED BY 0N3Bit</h1>
+<br>
+<img src="http://www.sistemasaplicados.com.mx/imagenes_menus/0n3Bit.jpg" class"img">
+<br>
+<div align="center"><h2>twitter:0n3Bit</h2></div>
+</div>
+</body>
+</html>

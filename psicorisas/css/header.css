@@ -1,0 +1,146 @@
+
+body {
+    font-family:'Univers LT Std', Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+@font-face {
+  font-family:'Univers LT Std';
+  src: local(UniversLTStd-Cn), 
+  		url('../font/UniversLTStd-Cn.ttf') format('truetype'), url('../font/UniversLTStd-Cn.otf') format('opentype');
+}
+.header {
+    position: relative;
+    display: block;
+    height: 217px;
+    width:1020px;
+    float:none;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  width:180px;
+  height: 198px;
+  margin-left: 0;
+  padding: 0;
+  float:left;
+  cursor:pointer;
+  background-image: url('../img/psicorisas_logo.png');
+  opacity: 1;
+  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+}
+.logo:hover {
+opacity: 0.7;
+}
+.content_nav {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 742px;
+  height: 157px;
+  margin-left: 20px;
+}
+.nav {
+  font-family: 'Univers LT Std', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  position: relative;
+  float: left;
+  list-style: none;
+  width: 760px;
+  height: 157px;
+  margin-top:71px;
+  padding: 0;
+}
+.nav_btn {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 19px;
+  height: 72px;
+  line-height: 21px;
+  font-weight: 200;
+  padding:0px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.4s ease;
+  -webkit-transition: color 0.4s ease;
+}
+.nav_btn:hover {
+  color: #129b91;
+
+}
+.nav .dot {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 37px;
+  margin-left: 25px;
+  height: 38px;
+  background-image:url('../img/dot1.png');
+  background-repeat: no-repeat;
+}
+.yellow {
+  position: absolute;
+  display: block;
+  top: 0;
+  float: none;
+  width: 100%;
+  margin:0;
+  opacity: 0.8;
+  height: 533px;
+  z-index: 1;
+  background-repeat: repeat;
+  background-image: url(../img/bg2.png);
+}
+.bg1 {
+  position: absolute;
+  display: block;
+  top: 0;
+  float: none;
+  width: 100%;
+  margin:0;
+  height: 533px;
+  background-repeat: repeat;
+  background-image: url(../img/bg1.png);
+  z-index: 0;
+}
+.icon {
+  position: relative;
+  display: block;
+  float: none;
+  margin-top: 26px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 63px;
+  height: 60px;
+  cursor:pointer;
+}
+#i1 {
+  background-image: url('../img/i1.png');
+  background-repeat: no-repeat;
+}
+#i2 {
+  background-image: url('../img/i2.png');
+  background-repeat: no-repeat;
+}
+#i3 {
+  background-image: url('../img/i3.png');
+  background-repeat: no-repeat;
+}
+#i4 {
+  width: 103px !important;
+  margin-top: 48px !important;
+  background-image: url('../img/i4.png');
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,166 @@
+.light .content_familia {
+    background-image:url('../img/light_bg.png');
+    background-repeat:repeat;
+}
+.dark .content_familia {
+    background-image:url('../img/dark_bg.png');
+    background-repeat:repeat;
+}
+.content_familia {
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 31px;
+    height: auto;
+    margin-bottom: 30px;
+    width: 1020px;
+    z-index: 10;
+    padding: 0;
+}
+.light .content_familia, .light .content_familia {
+    background-image:url('../img/light_bg.png');
+    background-repeat:repeat;
+}
+.dark .content_familia, .dark .content_familia {
+    background-image:url('../img/dark_bg.png');
+    background-repeat:repeat;
+}
+.content_familia .col1 {
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    margin-left: 127px;
+    display: inline-block;
+    width: 768px;
+    min-height: 768px;
+}
+.content_familia .person {
+    position: relative;
+    float: left;
+    display:inline-block;
+    width:363px;
+    height: auto;
+    margin-left:0;
+    margin-right: 17px;
+    margin-bottom: 20px;
+}
+.content_familia .cover_img {
+    position: relative;
+    float: left;
+    display:inline-block;
+    width:363px;
+    height: auto;
+    margin-left: 0;
+    border: 0;
+    cursor: pointer;
+}
+.content_familia .title_seccion {
+    position: relative;
+    float: left;
+    clear: both;
+    display: block;
+    line-height: 24px;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Hallandale SC Heavy JL';
+}
+.content_familia .description {
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.content_familia .content_text {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width:363px;
+    height: auto;
+    margin-bottom:12px;
+
+}
+.content_familia .person .title {
+    position: relative;
+    float: left;
+    clear: both;
+    display: block;
+    margin:0;
+    line-height: 30px;
+    font-size: 20px;
+    width: 100%;
+    height:auto;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.content_familia .text {
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 7px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.person .img_credit {
+   font-family: 'Oleo Script';
+    position: relative;
+    float: right;
+    display: block;
+    font-weight: 200;
+    margin-top:8px;
+    padding:0;
+    width: 100%;
+    clear: both;
+    height: 25px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+}
+.dark .person .text {
+    color: #666666;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.dark .title_seccion {
+    color: #cccccc;
+}
+.light .title_seccion {
+    color: #333333;
+}
+
+.light .person .text {
+    color: #333333;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.light .description {
+    color: #333333;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.dark .description {
+    color: #cccccc;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}

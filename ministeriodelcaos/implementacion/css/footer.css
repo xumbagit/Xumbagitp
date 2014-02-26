@@ -1,0 +1,151 @@
+.footer {
+    position:relative;
+    height: 92px;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top:0;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 100;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .red_line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top:8px;
+    left: 0;
+    background-color: #960000;
+    z-index: 20;
+}
+
+.dark .footer {
+    background-image: url('../img/light_wall.png');
+    background-repeat: repeat;
+}
+.light .footer {
+    background-image: url('../img/dark_wall2.png');
+    background-repeat: repeat;
+}
+.credits {
+    position: relative;
+    display: block;
+    float: none;
+    clear: both;
+    margin: 0 auto;
+    height: 47px;
+    width: 100%;
+}
+.light .logo_xumba {
+    background-image: url('../img/logo_xumba2.png');
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.light .logo_xumba:hover {
+    opacity:1;
+}
+.dark .logo_xumba {
+    background-image: url('../img/logo_xumba.png');
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.dark .logo_xumba:hover {
+    opacity:1;
+}
+.logo_xumba {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top:13px;
+    margin-left:5px;
+    height: 19px;
+    width: 44px;
+    cursor: pointer;
+}
+.content_credits {
+    position: relative;
+    width:590px;
+    height:45px;
+    float: none;
+    font-size: 12px;
+    line-height: 45px;
+    text-align: left;
+    text-indent: 20px;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.credit {
+    position: relative;
+    margin-right:25px;
+    float: right;
+    display: inline-block;
+    text-align: left;
+    width: 165px;
+    height: 60px;
+}
+.dark .credits {
+    background-color: #000000;
+    color: #ffffff;
+}
+.light .credits {
+    background-color: #666666;
+    color: #cccccc;
+}
+.content_footer {
+    position: relative;
+    width:688px;
+    height:59px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.dark .content_footer {
+    color:#ffffff;
+}
+.light .content_footer {
+    color:#666666;
+}
+.nav2 {
+    display: inline-block;
+    position: relative;
+    float: none;
+    list-style: none;
+    width: 688px;
+    height: 38px;
+    margin-top:20px;
+    padding: 0;
+    text-transform: uppercase;
+}
+.nav_btn2 {
+    float: left;
+    text-align: center;
+    font-size: 19px;
+    height: 38px;
+    font-size: 12px;
+    line-height: 38px;
+    font-weight: bold;
+    padding-left:33px;
+    padding-right: 33px;
+}
+.light .nav_btn2 {
+    color: #ffffff;
+    cursor: pointer;
+}
+.light .nav_btn2:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.dark .nav_btn2 {
+    color: #000000;
+    cursor: pointer;
+}
+.dark .nav_btn2:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}

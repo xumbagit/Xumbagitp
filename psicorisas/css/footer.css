@@ -1,0 +1,97 @@
+.footer {
+    position:relative;
+    height: 100px;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-top:20px;
+    margin-bottom: 0;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 100;
+    padding: 0;
+}
+.nav_footer {
+    display: block;
+    position: relative;
+    float: none;
+    width: 990px;
+    height: 60px;
+    margin:0 auto;
+    padding: 0;
+    text-transform: uppercase;
+    background-color: #c45205;
+}
+.nav_footer .nav {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    float: none;
+    list-style: none;
+    width: 990px;
+    height: 60px;
+    margin-top:0px;
+   /* margin-left: 15px;*/
+    padding: 0;
+    text-transform: uppercase;
+}
+.nav_footer .nav_btn {
+    float: left;
+    text-align: center;
+    height: 60px;
+    font-size: 13px;
+    line-height: 60px;
+    font-weight: bold;
+    padding:0;
+    margin-left: 29px;
+    margin-right:29px;
+    color: #f9eaac;
+    transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+}
+.nav_footer .nav_btn:hover {
+    color: #ffffff;
+}
+
+.content_credits {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: block;
+    width:100%;
+    height:39px;
+    float: none;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #f4a21d;
+}
+.credits {
+    position: relative;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    text-align: left;
+    width: 455px;
+    height: 39px;
+    font-size: 11px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: lighter;
+
+}
+.logo_xumba {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top:8px;
+    margin-left:5px;
+    height: 19px;
+    width: 44px;
+    cursor: pointer;
+    background-image: url('../img/logo_xumba.jpg');
+    opacity: 0.7;
+}
+.logo_xumba:hover {
+    opacity:1;
+
+}

@@ -1,0 +1,39 @@
+/*@import url('bootstrap.min.css');*/
+
+#log {
+	height: 240px;
+	overflow-y: scroll;
+}
+
+.log {
+	margin: 10px;
+	overflow-y: scroll;
+}
+
+.nickname {
+	text-align: left;
+	font-weight: bold;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.broadcast {
+	color: blue;
+	margin-left: 10px;
+}
+
+.server {
+	color: green;
+	margin-left: 10px;
+}
+
+.unicast {
+	color: purple;
+	margin-left: 10px;
+}
+
+.tome {
+	margin-left: 10px;
+}

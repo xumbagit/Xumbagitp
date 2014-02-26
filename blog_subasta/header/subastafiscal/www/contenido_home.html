@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/form.css" rel="stylesheet" />
+<link href="css/subasta.css" rel="stylesheet" />
+<link href="css/content.css" rel="stylesheet" />
+<link href="js/slides.min.jquery" type="text/javascript" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+<script>
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 6000,
+				pause: 2500,
+				hoverPause: true,
+				animationStart: function(current){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					$('.caption').animate({
+						bottom:0
+					},200);
+				}
+			});
+		});
+</script>
+<title>Subasta Fiscal</title>
+</head>
+
+<body>
+<div id="content">
+	<div id="banner_home">
+    	<div id="container">
+    <div id="slides">
+	  <div class="slides_container">
+					<div class="slide">
+					<a href="#"><img src="img/plafincorp1.jpg" width="590" height="305" alt="Slide 1" /></a>
+					</div>
+					<div class="slide">
+					<a href="#"><img src="img/xumba1.jpg" width="590" height="305" alt="Slide 2" /></a>
+					</div>
+                    <div class="slide">
+					<a href="#"><img src="img/catic1.jpg" width="590" height="305" alt="Slide 3" /></a>
+					</div>
+                     <div class="slide">
+					<a href="#"><img src="img/biblioteca_fiscal1.jpg" width="590" height="305" alt="Slide 4" /></a>
+					</div>
+                    <div class="slide">
+					<a href="#"><img src="img/asesoria-online.jpg" width="590" height="305" alt="Slide 5" /></a>
+					</div>
+	    </div>
+        	<a href="#" class="prev"><img src="img/flecha1.png" width="14" height="83" border="0" alt="Arrow Prev"></a>
+		   <a href="#" class="next"><img src="img/flecha2.png" width="14" height="83" border="0" alt="Arrow Next"></a>
+        </div>
+    </div>
+    </div>
+	<div id="contenedor_subasta">
+	    <table width="300" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+	        <td colspan="4">
+            	<span id="pestana">
+	          		<h6>Subasta de Valores Fiscales</h6>
+	          	</span></td>
+          </tr>
+	      <tr>
+	        <td width="100px"><span class="valores">Valor Nominal</span></td>
+	        <td width="62px"><span class="valores">Origen</span></td>
+	        <td width="60px"><span class="valores">MPO %</span></td>
+	        <td width="80px"><span class="valores"></span></td>
+          </tr>
+	      <tr class="fila_blanca">
+	        <td><span class="casillas">8.000.000</span></td>
+	        <td><span class="casillas_origen">Est.ISRL</span></td>
+	        <td><span class="casillas_mpo">93.25%</span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr>
+	        <td><span class="casillas">25.000.000</span></td>
+	        <td><span class="casillas_origen">Est.ISRL</span></td>
+	        <td><span class="casillas_mpo">93.25%</span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr class="fila_blanca">
+	        <td><span class="casillas"></span></td>
+	        <td><span class="casillas_origen"></span></td>
+	        <td><span class="casillas_mpo"></span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr>
+	        <td><span class="casillas"></span></td>
+	        <td><span class="casillas_origen"></span></td>
+	        <td><span class="casillas_mpo"></span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr class="fila_blanca">
+	        <td><span class="casillas"></span></td>
+	        <td><span class="casillas_origen"></span></td>
+	        <td><span class="casillas_mpo"></span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr>
+	        <td><span class="casillas"></span></td>
+	        <td><span class="casillas_origen"></span></td>
+	        <td><span class="casillas_mpo"></span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr class="fila_blanca">
+	        <td><span class="casillas"></span></td>
+	        <td><span class="casillas_origen"></span></td>
+	        <td><span class="casillas_mpo"></span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr>
+	        <td><span class="casillas"></span></td>
+	        <td><span class="casillas_origen"></span></td>
+	        <td><span class="casillas_mpo"></span></td>
+	        <td><span class="detalle"><a href="#">detalle</a></span></td>
+          </tr>
+	      <tr class="fila_blanca_final">
+	        <td colspan="4"><span class="celda_final bold">¡Participa en la Subasta ahora!</span><span class="boton_verde_d"><a href="#">ver todas</a></span></td>
+          </tr>
+        </table>
+  </div>
+	
+	<div class="banner_home2"><a href="http//:www.cefincorp.com" target="_blank"><img src="img/cefincorp1.jpg" width="940" height="100" border="0" /></a>
+    </div>
+    
+  <div id="contenedor_noticias">
+    	<div id="pestana"><span id="boton-prev"><a href="#"><<</a></span><h6>Actualidad Fiscal</h6>
+            <span id="boton-next"><a href="#">>></a></span>
+        </div>
+        <div class="modulos">
+        	<div id="titulo_noticia">Se observa exceso de oferta de reintegro de IVA
+            </div>
+            <div id="fecha_noticia">25/09/2012
+            </div>
+          <div id="contenido_noticia">A  quince días de las elecciones presidenciales, la administración Tributaria (SENIAT) a notificado a los contribuyentes que tienen pagos en exceso de...
+          </div>
+            <span class="boton_verde_i"><a href="#" target="_self">leer más</a></span>
+    </div>
+        <div class="modulos">
+        	<div id="titulo_noticia">Establecen los requisitos que deben presentar las personas naturales y jurídicas ante el RNC
+            </div>
+            <div id="fecha_noticia">25/09/2012
+            </div>
+          <div id="contenido_noticia">La Vicepresidencia de la República, a través de la Comisión Central de Planificación establece los Requisitos Legales, Técnicos y Financieros que debe...
+          </div>
+            <span class="boton_verde_i"><a href="#" target="_self">leer más</a></span>
+    </div>
+         <div class="modulos">
+        	<div id="titulo_noticia">Extienden hasta 30 de septiembre plazo para declaración estimada y pago al Fondo Nacional del Deporte
+            </div>
+            <div id="fecha_noticia">25/09/2012
+            </div>
+          <div id="contenido_noticia">El Presidente del Instituto Nacional de Deportes, través de la Providencia Administrativa Nro. 086/2012 de fecha 28 de agosto, extendió el plazo único...
+          </div>
+            <span class="boton_verde_i"><a href="#" target="_self">leer más</a></span>
+         </div>
+         
+        </div>
+        
+        <div id="twitter">
+        <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+ rpp: 10,
+  interval: 30000,
+  width: 300,
+  height: 514,
+  theme: {
+    shell: {
+      background: '#efc85e',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#8e8e8e',
+      links: '#4F4F4F'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('subastafiscal').start();
+</script>
+        </div>
+         <div id="banner3">
+         		<a href="#" target="_self">
+                <img src="img/banner_balance.png" width="300" height="224" border="0" />
+                </a>
+        </div>
+        <div id="banner4">
+        	<a href="#" target="_self">
+        		<img src="img/banner_asodeco.png" width="300" height="360" border="0" />
+        	</a>
+        </div>
+        <div id="separador">
+        </div>
+        
+        </div>
+    
+
+</body>
+</html>

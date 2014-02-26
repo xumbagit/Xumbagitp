@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+
+.category1 .sq:hover {
+	background-color:#A0108F;
+}
+.category2 .sq:hover {
+	background-color:#FF9922;
+}
+
+.category3 .sq:hover {
+	background-color:#7FCCCC;
+}
+.category4 .sq:hover {
+	background-color:#0099CC;
+}
+.category5 .sq:hover {
+	background-color:#80C900;
+}
+
+
+
+.category1 .triangle_b {
+	background-image:url(../img/categ_1.png);
+	background-repeat:no-repeat;
+}
+.category2 .triangle_b {
+	background-image:url(../img/categ_2.png);
+	background-repeat:no-repeat;
+}
+.category3 .triangle_b {
+	background-image:url(../img/categ_3.png);
+	background-repeat:no-repeat;
+}
+.category4 .triangle_b {
+	background-image:url(../img/categ_4.png);
+	background-repeat:no-repeat;
+}
+.category5 .triangle_b {
+	background-image:url(../img/categ_5.png);
+	background-repeat:no-repeat;
+}
+
+
+.category1 .triangle_b2 {
+	background-image:url(../img/mini_categ_1.png);
+	background-repeat:no-repeat;
+}
+.category2 .triangle_b2 {
+	background-image:url(../img/mini_categ_2.png);
+	background-repeat:no-repeat;
+}
+.category3 .triangle_b2 {
+	background-image:url(../img/mini_categ_3.png);
+	background-repeat:no-repeat;
+}
+.category4 .triangle_b2 {
+	background-image:url(../img/mini_categ_4.png);
+	background-repeat:no-repeat;
+}
+.category5 .triangle_b2 {
+	background-image:url(../img/mini_categ_5.png);
+	background-repeat:no-repeat;
+}
+
+
+
+.category1 h2 {
+	color:#d333c7;
+}
+.category2 h2 {
+	color:#FF9922;
+}
+.category3 h2 {
+	color:#7FCCCC;
+}
+.category4 h2 {
+	color:#0099CC;
+}
+.category5 h2 {
+	color:#80C900;
+}
+
+
+
+
+.category1 .view1 .category_name {
+	color:#A0108F;
+}
+.category2 .view1 .category_name {
+	color:#FF9922;
+}
+.category3 .view1 .category_name {
+	color:#7FCCCC;
+}
+.category4 .view1 .category_name {
+	color:#0099CC;
+}
+.category5 .view1 .category_name {
+	color:#80C900;
+}
+
+
+
+.category1 .view1 .triangle {
+	background-image:url(../img/triangle_1.png);
+	background-repeat:no-repeat;
+}
+.category2 .view1 .triangle {
+	background-image:url(../img/triangle_2.png);
+	background-repeat:no-repeat;
+}
+.category3 .view1 .triangle {
+	background-image:url(../img/triangle_3.png);
+	background-repeat:no-repeat;
+}
+.category4 .view1 .triangle {
+	background-image:url(../img/triangle_4.png);
+	background-repeat:no-repeat;
+}
+.category5 .view1 .triangle {
+	background-image:url(../img/triangle_5.png);
+	background-repeat:no-repeat;
+}
+
+
+
+
+.category1 .view3 .triangle {
+	background-image:url(../img/triangle_1-.png);
+	background-repeat:no-repeat;
+}
+.category2 .view3 .triangle {
+	background-image:url(../img/triangle_2-.png);
+	background-repeat:no-repeat;
+}
+.category3 .view3 .triangle {
+	background-image:url(../img/triangle_3-.png);
+	background-repeat:no-repeat;
+}
+.category4 .view3 .triangle {
+	background-image:url(../img/triangle_4-.png);
+	background-repeat:no-repeat;
+}
+.category5 .view3 .triangle {
+	background-image:url(../img/triangle_5-.png);
+	background-repeat:no-repeat;
+}
+
+
+
+.category1 .tag_list1 .tag, .category1 .tag_list2 .tag {
+	background-color:#A0108F;
+}
+.category2 .tag_list1 .tag, .category2 .tag_list2 .tag {
+	background-color:#FF9922;
+}
+.category3 .tag_list1 .tag, .category3 .tag_list2 .tag {
+	background-color:#7FCCCC;
+}
+.category4 .tag_list1 .tag, .category4 .tag_list2 .tag {
+	background-color:#0099CC;
+}
+.category5 .tag_list1 .tag, .category5 .tag_list2 .tag {
+	background-color:#80C900;
+}
+
+
+
+.category1 .view2 .category_name {
+	color:#A0108F;
+}
+.category2 .view2 .category_name {
+	color:#FF9922;
+}
+.category3 .view2 .category_name {
+	color:#7FCCCC;
+}
+.category4 .view2 .category_name {
+	color:#0099CC;
+}
+.category5 .view2 .category_name {
+	color:#80C900;
+}
+
+
+
+.category1 .view3 .category_name {
+	color:#A0108F;
+}
+.category2 .view3 .category_name {
+	color:#FF9922;
+}
+.category3 .view3 .category_name {
+	color:#7FCCCC;
+}
+.category4 .view3 .category_name {
+	color:#0099CC;
+}
+.category5 .view3 .category_name {
+	color:#80C900;
+}
+
+
+
+.category1 .autor {
+	color:#A0108F;
+}
+.category2 .autor {
+	color:#FF9922;
+}
+.category3 .autor {
+	color:#7FCCCC;
+}
+.category4 .autor {
+	color:#0099CC;
+}
+.category5 .autor {
+	color:#80C900;
+}

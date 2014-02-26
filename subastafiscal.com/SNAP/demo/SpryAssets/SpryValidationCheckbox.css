@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* SpryValidationCheckbox.css - version 0.4 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+
+/* These are the classes applied on the messages
+ * (required message, minSelections message and maxSelections message)
+ * which prevent them from being displayed by default.
+ */
+.checkboxRequiredMsg, .checkboxMinSelectionsMsg, .checkboxMaxSelectionsMsg, .checkboxRequiredMsgServicio{
+	display: none;
+}
+
+/* These selectors change the way messages look when the widget is in one of the error states.
+ * These classes set a default red border and font color for the error text.
+ * The state class (e.g. .checkboxRequiredState) is applied on the top-level container for the widget, 
+ * and this way only the specific error message can be shown by setting the display property to "inline".
+ */
+ 
+ .checkboxRequiredState .checkboxRequiredMsgServicio,
+.checkboxMinSelectionsState .checkboxMinSelectionsMsg,
+.checkboxMaxSelectionsState .checkboxMaxSelectionsMsg {
+ 	
+	display:inline;
+	width:150px;
+	color: #CC3333;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+	font-size:11px;
+	position:absolute;
+	left:150px;
+	font-weight:lighter;
+	margin-top:-15px;
+	
+	
+	
+}
+ 
+.checkboxRequiredState .checkboxRequiredMsg,
+.checkboxMinSelectionsState .checkboxMinSelectionsMsg,
+.checkboxMaxSelectionsState .checkboxMaxSelectionsMsg {
+	
+	display:inline-block;
+	width:200px;
+	color:#F00;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	position:absolute;
+	left:450px;
+	font-weight:bold;
+	height:15px;
+	right:60px;
+	
+}

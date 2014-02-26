@@ -1,0 +1,168 @@
+body {
+    font-family: 'Hallandale SC Heavy JL', Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+@font-face {
+	font-family:'Hallandale SC Heavy JL';
+    src: local(HallandaleSCHeavy), 
+   		url('../font/HallandaleSCHeavy.otf') format('opentype'), url('../font/HallandaleSCHeavy.woff') format('woff'), url('../font/HallandaleSCHeavy.ttf') format('truetype'), url('../font/HallandaleSCHeavy.eot') format('eot');
+   font-family:'Oleo Script';
+   src: local(OleoScript-Regular),
+   		url('../font/OleoScript-Regular.otf') format('opentype'), url('../font/OleoScript-Regular.woff') format('woff'), url('../font/OleoScript-Regular.ttf') format('truetype'), url('../font/OleoScript-Regular.eot') format('eot');
+}
+
+
+.header {
+    position: relative;
+    display: block;
+    height: 87px;
+    width:1020px;
+    float:none;
+    margin: 0 auto;
+    z-index: 100;
+}
+.light .header, .light .styles {
+    background-image: url('../img/light_wall.png');
+    background-repeat: repeat; 
+}
+.dark .header, .dark .styles {
+    background-image: url('../img/dark_wall.png');
+    background-repeat: repeat; 
+}
+.light .content_nav {
+    background-image: url('../img/dark_wall.png');
+    background-repeat: repeat; 
+}
+.dark .content_nav {
+    background-image: url('../img/light_wall.png');
+    background-repeat: repeat; 
+
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    width:139px;
+    height: 87px;
+    margin-left: 0;
+    padding: 0;
+    float:left;
+    cursor:pointer;
+}
+.light .logo {
+    background-image:url('../img/mc_light.png');
+    background-repeat: no-repeat;
+}
+.dark .logo {
+    background-image:url('../img/mc_dark.png');
+    background-repeat: no-repeat;
+}
+.content_nav {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 881px;
+    height: 62px;
+}
+.header .red_line {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #960000;
+    z-index: 20;
+}
+.nav {
+    display: inline-block;
+    position: relative;
+    float: left;
+    list-style: none;
+    width: auto;
+    height: 62px;
+    margin: 0;
+    padding: 0;
+}
+.nav_btn {
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    height: 62px;
+    line-height: 53px;
+    font-weight: 200;
+    padding-left:27px;
+    padding-right:27px;
+    font-family:'Hallandale SC Heavy JL';
+}
+.light .nav_btn {
+    color: #ffffff;
+    cursor: pointer;
+}
+.light .nav_btn:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+.dark .nav_btn {
+    color: #000000;
+    cursor: pointer;
+}
+.dark .nav_btn:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.dark .nav_btn {
+    color: #000000;
+}
+.styles {
+    font-family: Arial, helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    width: 881px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-right: 20px;
+    font-size:10px;
+    line-height: 25px;
+    float: right;
+}
+.light span, .dark span {
+    cursor: pointer;
+    color: #666666;
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.light #light_btn:hover, .light #dark_btn:hover {
+    color: #333333;
+    margin-right: 10px;
+}
+.dark #light_btn:hover, .dark #dark_btn:hover {
+    color: #cccccc;
+    margin-right: 10px;
+}
+.light .line {
+    background-color: #cccccc;
+    width: 2px;
+    height: 15px;
+    margin-top: 25px;
+    float: left;
+    position: relative;
+    padding:0;
+    z-index: 10;
+}
+.dark .line {
+    background-color: #666666;
+    width: 2px;
+    height: 15px;
+    margin-top: 25px;
+    float: left;
+    position: relative;
+    padding:0;
+    z-index: 10;
+}

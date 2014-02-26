@@ -1,0 +1,236 @@
+.light .content_contacto {
+    background-image:url('../img/light_bg.png');
+    background-repeat:repeat;
+}
+.dark .content_contacto {
+    background-image:url('../img/dark_bg.png');
+    background-repeat:repeat;
+}
+.content_contacto {
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 31px;
+    height: auto;
+    margin-bottom: 30px;
+    width: 1020px;
+    z-index: 10;
+    padding: 0;
+}
+.light .content_contacto, .light .content_contacto {
+    background-image:url('../img/light_bg.png');
+    background-repeat:repeat;
+}
+.dark .content_contacto, .dark .content_contacto {
+    background-image:url('../img/dark_bg.png');
+    background-repeat:repeat;
+}
+.content_contacto .col1 {
+    position: relative;
+    float: left;
+    margin-top: 40px;
+    margin-left: 127px;
+    display: inline-block;
+    width: 768px;
+    min-height: 400px;
+}
+.content_contacto .content_form {
+    position: relative;
+    float: left;
+    display:block;
+    width:400px;
+    height: auto;
+    margin-left:0;
+    margin-right: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content_contacto .form1 {
+    font-family: arial, helvetica, sans-serif;
+    position: relative;
+    float: left;
+    display:inline-block;
+    width:350px;
+    height: auto;
+    margin-left: 0;
+}
+.content_contacto .form1 .field{
+    position: relative;
+    float: left;
+    display: block;
+    margin-left: 0;
+    height: 30px;
+    width: 220px;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 20px;
+    text-indent: 12px;
+    color: red;
+    border:0;
+    margin-bottom: 20px;
+    background-image: url('../img/light_bg2.png');
+    background-repeat: repeat;
+}
+.content_contacto .form1 .area {
+    font-family: arial, helvetica, sans-serif;
+    position: relative;
+    float: left;
+    display: inline-block;
+    float: left;
+    color: red;
+    border:0;
+    padding-top:8px;
+    padding-right: 15px;
+    padding-left: 12px;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 20px;
+    background-image: url('../img/light_bg2.png');
+    background-repeat: repeat;
+    width: 390px;
+    height: 190px;
+    min-width:390px;
+    max-width:390px;
+    min-height:190px;
+    max-height:190px;
+    margin-top: 3px;
+}
+.content_contacto .form1 .required {
+    position: relative;
+    display: inline-block;
+    float: left;
+    color: red;
+    line-height: 35px;
+    margin-left: 12px;
+    /*clear: both;*/
+}
+.light .btn, .dark .btn {
+    font-family:'Hallandale SC Heavy JL';
+    text-align: center;
+    position: relative;
+    display:block;
+    margin:32px 0px 30px 0px;
+    color: red;
+    padding-top: 0;
+    padding-right:12px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    width:auto;
+    height: 42px;
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: lighter;
+    z-index: 5;
+    border: 0;
+    float: left;
+    cursor: pointer;
+}
+.light .btn:hover, .dark .btn:hover {
+    font-weight: lighter;
+    background-color: red;
+    color: #ffffff;
+}
+.light .btn {
+    background-color:#333333;
+    color: #ffffff;
+}
+.dark .btn {
+    background-image: url('../img/light_bg2.png;');
+    background-repeat: repeat;
+}
+.content_contacto .title_seccion {
+    font-family:'Hallandale SC Heavy JL';
+    position: relative;
+    float: left;
+    clear: both;
+    display: block;
+    line-height: 24px;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+    text-align: left;
+    text-transcontent_form: uppercase;
+    text-decoration: none;
+}
+.content_contacto .description {
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.content_contacto .content_text {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width:363px;
+    height: auto;
+    margin-bottom:12px;
+
+}
+.content_contacto .content_form .title {
+    position: relative;
+    float: left;
+    clear: both;
+    display: block;
+    margin:0;
+    line-height: 30px;
+    font-size: 20px;
+    width: 100%;
+    height:auto;
+    text-transcontent_form: uppercase;
+    text-decoration: none;
+
+}
+.content_contacto .text {
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 7px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    overflow: hidden;
+
+}
+.dark .content_form .text {
+    color: #666666;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.dark .title_seccion {
+    color: #cccccc;
+}
+.light .title_seccion {
+    color: #333333;
+}
+
+.light .content_form .text {
+    color: #333333;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.light .description {
+    color: #333333;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.dark .description {
+    color: #cccccc;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}

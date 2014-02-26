@@ -1,0 +1,306 @@
+.green {
+    position: absolute;
+    display: block;
+    top: 230px;
+    float: none;
+    width: 100%;
+    margin:0;
+    height: 146px;
+    z-index: 4;
+    background-color:#a8c638;
+}
+.content_contacto {
+    width:878px;
+    height:110px;
+    display:block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 49px;
+     z-index: 4;
+}
+
+.content_contacto .caption {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 700px;
+    height: 146px;
+    z-index: 5;
+    text-align: center;
+}
+.content_contacto .title {
+    font-family: Arial, helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #005c5d;
+    display:block;
+    padding: 0;
+    margin: 0;
+}
+.content_contacto .text {
+    font-family: Arial, helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 19px;
+    line-height: 20px;
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+    padding:0;
+}
+.blue2_content {
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    min-height:978px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    display: block; 
+    background-color:#39667f;
+    z-index: 3;
+}
+.content_contact2 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 318px;
+    height: 495px;
+    margin-top: -20px;
+    margin-left: 0px;
+    background-image: url('../img/bg1.png');
+    background-repeat: repeat;
+    z-index: 2;
+}
+.box1 {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 567px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.box1 .title2 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:-25px;
+/*    margin-bottom: -49px;*/
+    margin-left: 140px;
+     background-color: #68c3c4;
+    color: #ffffff;
+    padding: 3px 36px;
+    width:auto;
+    height: 43px;
+    font-size: 15px;
+    line-height: 43px;
+    font-weight: bold;
+    z-index: 5;
+}
+.box1 .title4 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:-25px;
+    margin-bottom: -49px;
+    margin-left: 176px;
+     background-color: #a8c638;
+    color: #ffffff;
+    padding: 3px 36px;
+    width:100px;
+    height: 43px;
+    font-size: 15px;
+    line-height: 43px;
+    font-weight: bold;
+    z-index: 5;
+}
+.club {
+    position: relative;
+    display: block;
+    margin:0;
+    padding:0;
+    width: 567px;
+    height: 400px;
+    background-image: url('../img/psicorisas_club.jpg');
+    background-repeat: no-repeat;
+}
+.box1 .list {
+    font-family: arial,helvetica, sans-serif;
+    margin-top: 48px;
+    margin-left: 10px;
+    margin-bottom: 48px;
+    list-style: disc;
+    padding: 0;
+    position: relative;
+    width: 522px;
+    color: #007b92;
+}
+.box1 .list li {
+    font-family: arial, helvetica, sans-serif;
+    display: list-item;
+    position: relative;
+    text-align: left;
+    color: #007b92;
+    margin-left: 32px;
+/*    margin-bottom: 12px;*/
+    padding-left: 5px;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.content_below3 {
+    position: relative;
+    margin: -5px auto;
+    width: 1020px;
+    min-height:584px;
+    padding-bottom: 20px;
+    display: block; 
+    z-index: 1;
+}
+.content_below3 .sub {
+    position: relative;
+    display: block;
+    clear: both;
+    float: none;
+    color:#c45205;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+.content_contact2 .title2 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:33px;
+/*  margin-bottom: -49px;*/
+    margin-left: 23px;
+     background-color: #c45205;
+    color: #ffffff;
+    padding: 3px 36px;
+    width:200px;
+    height: 43px;
+    font-size: 15px;
+    line-height: 43px;
+    font-weight: bold;
+    z-index: 5;
+}
+.box2 {
+    position: relative;
+    margin-left: 0px;
+    margin-top: -24px;
+    margin-bottom: 24px;
+    width: 270px;
+    height: auto;
+    float: left;
+    display: block;
+    background-color: #ffffff;
+    padding-top: 74px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 60px;
+}
+.box2 .big {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: bold;
+}
+.box2 .text2 {
+    position: relative;
+    font-size: 17px;
+    line-height: 23px;
+    font-family: arial, helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+    color: #007b92;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content_activities {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-top: -220px;
+    width: 567px;
+    height: 460px;
+    display:inline-block;
+    clear: both;
+}
+.content_activities .col1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 254px;
+    margin-left: 20px;
+    margin-right: 24px;
+    margin-top: 34px;
+    height: auto;
+    color: #b2f9f7;
+    
+}
+.content_activities .big {
+    position: relative;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.content_activities .col2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 254px;
+    height: auto;
+    margin-top: 34px;
+    color: #b2f9f7;
+}
+.cup {
+    position: relative;
+    display: inline-block;
+    width: 77px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: -6px;
+    background-image: url('../img/cup.png');
+    background-repeat: no-repeat;
+}
+.content_map {
+    position: relative;
+    margin-left: 60px;
+    margin-top: -67px;
+    display: inline-block;
+    float: left;
+    width: 195px;
+    height: auto;
+}
+.pointer {
+    position: relative;
+    display: block;
+    float: left;
+    width: 195px;
+    height: 110px;
+    margin: 0;
+    background-image: url('../img/pointer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content_map .text {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-top: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    width: 195px;
+    height: auto;
+}

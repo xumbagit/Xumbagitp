@@ -1,0 +1,242 @@
+.content_category2 {
+    position: relative;
+    display: inline-block;
+    float: none;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 31px;
+    height: auto;
+    margin-bottom: 30px;
+    width: 1020px;
+    z-index: 10;
+    padding: 0;    
+}
+.big_title {
+    width: 100%;
+    height: 23px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 19px;
+    margin-left: 8px;
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    font-family:'Hallandale SC Heavy JL';
+}
+.dark .big_title {
+    color: #ffffff;
+}
+.light .big_title {
+    color: #333333;
+}
+.content_category2 .col1 {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 740px;
+    min-height: 768px;
+}
+.content_category2 .preview_post {
+    position: relative;
+    float: left;
+    display:block;
+    width:365px;
+    height: 410px;
+    margin-right:5px;
+    margin-bottom: 20px;
+}
+.content_category2 .preview_img {
+    position: relative;
+    float: left;
+    display:inline-block;
+    width:362px;
+    height: 242px;
+    margin-left: 0;
+    border: 0;
+    background-color: #000;
+    cursor: pointer;
+}
+.content_category2 .preview_img img:hover {
+    opacity: 0.7;
+}
+.content_category2 .preview_img img {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+.content_category2 .preview_post .content_text{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 365px;
+    height: auto;
+    margin-left: 0;
+    margin-top: 8px;
+    overflow: hidden;
+}
+.content_category2 .preview_post .title{
+    position: relative;
+    float: left;
+    clear: both;
+    display: block;
+    line-height: 24px;
+    font-size: 19px;
+    margin: 0;
+    width: 100%;
+    height:auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Hallandale SC Heavy JL';
+}
+.content_category2 .preview_post .title:hover {
+    text-decoration: underline;
+}
+.content_category2 .col2 {
+    position: relative;
+    float: left;
+    margin-top: 61px;
+    margin-left:0;
+    display: inline-block;
+    width: 230px;
+    min-height: 408px;
+}
+
+.content_category2 .preview_post .text {
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 7px;
+}
+
+.frase {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    display:inline-block;
+    width: 230px;
+    height: auto;
+    font-family: 'Oleo Script';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.dark .frase {
+    background-image: url('../img/dark_wall.png');
+    background-repeat: repeat;
+    color: #cccccc;
+}
+.light .frase {
+    background-image: url('../img/light_wall.png');
+    background-repeat: repeat;
+    color: #333333;
+}
+.instagram_area {
+    position: relative;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    display:block;
+    width: 230px;
+    height:478px;
+}
+.content_category2 .post {
+    position: relative;
+    float: left;
+    display:block;
+    width:675px;
+    height: auto;
+    margin-right:5px;
+    margin-bottom: 20px;
+}
+.content_category2 .cover_img {
+    position: relative;
+    float: left;
+    display:inline-block;
+    width:675px;
+    height: auto;
+    margin-left: 0;
+    border: 0;
+    cursor: pointer;
+
+}
+.content_category2 .cover_img img {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+}
+.content_category2 .post .content_text {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 675px;
+    height: auto;
+    margin-bottom:12px;
+}
+.content_category2 .post .title {
+    position: relative;
+    float: left;
+    clear: both;
+    display: block;
+    margin:0;
+    line-height: 45px;
+    font-size: 40px;
+    width: 100%;
+    height:auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Hallandale SC Heavy JL';
+
+}
+.content_category2 .post .text {
+    position: relative;
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 7px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+.dark .post .text {
+    color: #666666;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.light .post .text {
+    color: #333333;
+    width: 100%;
+    height:auto;
+    font-family: Arial, helvetica, sans-serif;
+}
+.post .date {
+    position: relative;
+    float: left;
+    margin: 0;
+    background-color: #ffffff;
+    width: auto;
+    height: 21px;
+    padding-right:7px;
+    padding-left:7px;
+    clear: both;
+    display:inline-block;
+    font-size: 12px;
+    line-height: 21px;
+    font-family: Arial, helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #bc0000;
+    font-weight: bold;
+}

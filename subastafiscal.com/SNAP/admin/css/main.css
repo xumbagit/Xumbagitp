@@ -1,0 +1,21 @@
+
+.menu
+{
+	border-right: solid 1px;
+	min-height: 500px
+
+}
+.deleteh
+{
+    display: none;
+}
+.curvideos
+{
+    visibility: hidden;
+    
+}
+.rowheader
+{
+   text-align: center;
+}
+

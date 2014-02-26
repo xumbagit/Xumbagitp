@@ -1,0 +1,323 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#textores {
+width:618px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+position:relative;
+float:left;
+color:#666666;
+margin-left:40px;
+padding:0px;
+margin-top:60px;
+
+	
+}
+#imagenasodeco {
+width:600px;
+height:306px;
+position:relative;
+float:left;
+margin:0px;
+margin-top:0px;
+padding:0px;
+background-image:url(../img/asodeco1.png);
+background-repeat:no-repeat;
+}
+
+.cont_textres {
+
+width:508px;
+display:block;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+position:relative;
+float:left;
+color:#666666;
+margin:0px;
+margin-top:10px;
+padding:0px;
+
+}
+
+	#parrafocompleto {
+width:620px;
+height:200px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size:12px;
+line-height:14px;
+font-weight:normal;
+position:absolute;
+float:left;
+color:#666666;
+top:290px;
+left:42px;
+
+	
+}
+
+.rellenobib {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+	position:relative;
+	float:left;
+	margin:0px;
+	margin-left:20px;
+	padding:0px;
+	width:500px;
+	border-radius:4px 4px 4px 4px;
+	height:17px;
+	behavior: url(js/PIE.htc);
+}
+
+	
+		.selectbib {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	width:250px;
+	font-size:12px;
+	position:relative;
+	float:left;
+	margin:0px;
+	margin-left:20px;
+	padding:0px;
+	border-radius:4px 4px 4px 4px;
+	behavior: url(js/PIE.htc);
+}
+
+		.selectbibpeq {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	width:235px;
+	font-size:12px;
+	position:relative;
+	float:left;
+	margin:0px;
+	margin-left:20px;
+	padding:0px;
+	border-radius:4px 4px 4px 4px;
+	behavior: url(js/PIE.htc);
+}
+
+.contenedortipoimpuesto {
+	
+width:255px;
+height:30px;
+position:relative;
+float:left;
+margin:0px;
+padding:0px;
+}
+
+#contenedorinputbib {
+width:600px;
+height:30px;
+position:relative;
+float:left;
+margin:0px;
+margin-top:20px;
+margin-bottom:0px;
+padding:0px;
+}
+
+#contenedor_biblioteca_archivos {
+	position:relative;
+	display:block;
+	width:620px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	background-color:#F5F5F5;
+	float:left;
+	margin-left:0px;
+	margin-top:13px;
+	letter-spacing:normal;
+}
+
+.valoresbib {
+	font-size:12px;
+	line-height:16px;
+	font-weight:bold;
+	color:#646464;
+	text-align:center;
+	display:block;
+	padding-right:2px;
+	padding-top:6px;
+	height:26px;
+	
+}
+
+.casillasbib{
+	font-size:12px;
+	line-height:26px;
+	font-weight:lighter;
+	color:#646464;
+	text-align:left;
+	display:block;
+	  padding-right:2px;
+	height:26px;
+	width:120px;
+}
+
+.casillasbibpeq{
+	font-size:12px;
+	line-height:26px;
+	font-weight:lighter;
+	color:#646464;
+	text-align:center;
+	display:block;
+	padding-right:2px;
+	height:26px;
+	width:90px;
+}
+
+
+
+.casillasbibgrande{
+	font-size:11px;
+	line-height:18px;
+	font-weight:lighter;
+	color:#646464;
+	text-align:center;
+	display:block;
+	padding-right:2px;
+	margin-top:15px;
+	height:52px;
+	width:400px;
+	
+	
+}
+
+.casillasbibgrande1linea{
+	font-size:11px;
+	line-height:35px;
+	font-weight:lighter;
+	color:#646464;
+	text-align:center;
+	display:block;
+	padding-right:2px;
+	margin-top:15px;
+	height:52px;
+	width:400px;
+	
+	
+}
+
+.imgpdf {
+width:16px;
+height:16px;
+position:relative;
+float:left;
+margin:0px;
+margin-left:30px;
+margin-top:3px;
+margin-right:5px;
+padding:0px;
+background-image:url(../img/pdf.png);
+background-repeat:no-repeat;
+}
+
+
+#descargar {
+	width:65px;
+	color:#666666;
+	display:inline-block;
+	position:relative;
+	z-index:5;
+	font-size:12px;
+	border-radius:4px 4px 4px 4px;
+	border:solid 0px;
+	text-align:center;
+	display:block;
+	line-height:13px;
+	margin:0 auto;
+	padding-bottom:0px;
+	line-height:22px;
+	behavior: url(js/PIE.htc);
+
+}
+	
+#descargar a:link, #descargar a:visited, #descargar a:active {
+	width:65px;
+	height:22px;
+	text-decoration:none;
+	color:#666666;
+	font-size:12px;
+	line-height:22px;
+	text-align:center;
+	display:block;
+	padding-bottom:0px;
+
+		border-radius:4px 4px 4px 4px;
+	border:solid 0px;
+	font-weight:lighter;
+		/* GRADIENTE */
+  background-color: #999999;
+	/* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#999999));
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -webkit-linear-gradient(top, #FFFFFF, #999999);
+	/* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(top, #FFFFFF, #999999);
+	/* IE 10+ */
+  background-image: -ms-linear-gradient(top, #FFFFFF, #999999);
+	/* Opera 11.10+ */
+  background-image: -o-linear-gradient(top, #FFFFFF, #999999);
+	/* W3C */
+  background: linear-gradient(top, #FFFFFF 0%,#999999 100%);
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#FFFFFF', EndColorstr='#999999');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#999999',GradientType=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#FFFFFF', EndColorstr='#999999');
+	behavior: url(js/PIE.htc);
+
+}
+
+#descargar a:hover {
+	width:65px;
+	height:22px;
+	text-decoration:none;
+	color:#FFF;
+	line-height:22px;
+	font-size:12px;
+	text-align:center;
+	display:block;
+	font-weight:lighter;
+	border-radius:4px 4px 4px 4px;
+	border:solid 0px;
+	padding-bottom:0px;
+
+		/* GRADIENTE */
+  background-color: #F4BF2A;
+	/* Safari 4+, Chrome 1-9 */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4BF2A), to(#B0781A));
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+  background-image: -webkit-linear-gradient(top, #F4BF2A, #B0781A);
+	/* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(top, #F4BF2A, #B0781A);
+	/* IE 10+ */
+  background-image: -ms-linear-gradient(top, #F4BF2A, #B0781A);
+	/* Opera 11.10+ */
+  background-image: -o-linear-gradient(top, #F4BF2A, #B0781A);
+	/* W3C */
+  background: linear-gradient(top, #F4BF2A 0%,#B0781A 100%);
+  /* IE7 IE8 */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F4BF2A', EndColorstr='#B0781A');
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F4BF2A', endColorstr='#B0781A',GradientType=0);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, StartColorstr='#F4BF2A', EndColorstr='#B0781A');
+	behavior: url(js/PIE.htc);
+}
+#archivosbiblio {
+width:364px;
+height:180px;
+position:absolute;
+top:230px;
+right:0px;
+background-image:url(../img/biblioteca.png);
+background-repeat:no-repeat;
+}
+

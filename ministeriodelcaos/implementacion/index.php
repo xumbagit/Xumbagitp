@@ -1,0 +1,26 @@
+<?php
+session_start();
+include("conf/config.conf.php");
+include("functions.php");
+	if(SERVIDOR_BD!=""){
+		$conexion=@mysql_connect(SERVIDOR_BD,USUARIO_BD,CLAVE_BD);
+		if($conexion){
+			$seleccionar=mysql_select_db(NOMBRE_BD);
+			mysql_query("SET NAMES 'utf8'");
+		}
+	}
+	if($_SESSION['estilo']==''){
+		if($_GET['estilo']!=''){
+			$_SESSION['estilo']=$_GET['estilo'];
+		}
+		else{
+			$_SESSION['estilo']="light";
+		}
+	}
+	else{
+		if($_GET['estilo']!=''){
+			$_SESSION['estilo']=$_GET['estilo'];
+		}
+	}
+	include("plantilla_std.php");
+?>
